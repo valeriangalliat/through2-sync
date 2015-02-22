@@ -1,6 +1,6 @@
 {
   "name": "through2-sync",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Synchronous through2 transforms.",
   "license": {
     "type": "Unlicense",

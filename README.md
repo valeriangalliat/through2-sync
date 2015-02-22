@@ -16,7 +16,7 @@ stream._read = () => {}
 
 stream
   .pipe(through(
-    chunk => chunk.toUpperCase(),
+    chunk => chunk.toString().toUpperCase(),
     () => 'last chunk\n'
   ))
   .pipe(process.stdout)
