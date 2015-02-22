@@ -4,6 +4,12 @@
 
 [through2]: https://github.com/rvagg/through2
 
+Description
+-----------
+
+The API is the same as [through2][] (including the `through.obj`
+helper), but the callback function is synchronous.
+
 Example
 -------
 

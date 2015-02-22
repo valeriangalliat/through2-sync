@@ -13,16 +13,21 @@ function mkSync (f) {
   }
 }
 
-module.exports = function throughSync (options, transform, flush) {
-  if (typeof options === 'function') {
-    flush = transform
-    transform = options
-    options = {}
-  }
+function mkThrough (through) {
+  return function (options, transform, flush) {
+    if (typeof options === 'function') {
+      flush = transform
+      transform = options
+      options = {}
+    }
 
-  return through(
-    options,
-    transform && mkSync(transform),
-    flush && mkSync(flush)
-  )
+    return through(
+      options,
+      transform && mkSync(transform),
+      flush && mkSync(flush)
+    )
+  }
 }
+
+module.exports = mkThrough(through)
+module.exports.obj = mkThrough(through.obj)
