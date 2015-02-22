@@ -1,7 +1,8 @@
-through2-sync
-=============
+# through2-sync [![npm version](http://img.shields.io/npm/v/through2-sync.svg?style=flat-square)](https://www.npmjs.org/package/through2-sync)
 
-> Synchronous through2 transforms.
+> Synchronous [through2] transforms.
+
+[through2]: https://github.com/rvagg/through2
 
 Example
 -------
