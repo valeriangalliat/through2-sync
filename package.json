@@ -1,0 +1,28 @@
+{
+  "name": "through2-sync",
+  "version": "0.1.0",
+  "description": "Synchronous through2 transforms.",
+  "license": {
+    "type": "Unlicense",
+    "url": "http://unlicense.org/"
+  },
+  "author": {
+    "name": "Valérian Galliat",
+    "url": "http://val.codejam.info/"
+  },
+  "homepage": "https://github.com/valeriangalliat/through2-sync",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valeriangalliat/through2-sync"
+  },
+  "dependencies": {
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.4.7",
+    "standard": "^2.7.3"
+  },
+  "scripts": {
+    "test": "standard && node test.js"
+  }
+}
