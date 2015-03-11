@@ -1,6 +1,6 @@
 {
   "name": "through2-sync",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Synchronous through2 transforms.",
   "license": {
     "type": "Unlicense",
@@ -13,7 +13,7 @@
   "homepage": "https://github.com/valeriangalliat/through2-sync",
   "repository": {
     "type": "git",
-    "url": "https://github.com/valeriangalliat/through2-sync"
+    "url": "https://github.com/valeriangalliat/through2-sync.git"
   },
   "dependencies": {
     "through2": "^0.6.3"
