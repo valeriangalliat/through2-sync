@@ -2,10 +2,7 @@
   "name": "through2-sync",
   "version": "0.2.1",
   "description": "Synchronous through2 transforms.",
-  "license": {
-    "type": "Unlicense",
-    "url": "http://unlicense.org/"
-  },
+  "license": "Unlicense",
   "author": {
     "name": "Valérian Galliat",
     "url": "http://val.codejam.info/"
